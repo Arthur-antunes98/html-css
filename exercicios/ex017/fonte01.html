@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            recomendação. usar px e em
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1.5rem ;
+            
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+            
+            /* shorthand font - font-style -> font-weight -> font-size -> font-family 
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            font: italic bolder 3em 'Work Sans', sans-serif ;
+        }
+        h2 {
+            font: bold 2em 'Work Sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi accusantium modi, consequatur, reprehenderit aspernatur officia qui temporibus autem atque officiis illum corporis et beatae provident cum optio dignissimos placeat voluptate. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, non dolorem nulla cupiditate maiores et laboriosam optio eaque impedit, minus vitae possimus architecto sit? Quia aliquid tenetur quisquam dignissimos doloribus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi unde pariatur similique, fugit in fuga, laborum porro sit nihil neque obcaecati? Commodi id provident quia laborum voluptatem praesentium dolores sed.</p>
+    <h2>Subtítulo de exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et laborum accusamus dignissimos error, quae tenetur? Quia ipsum asperiores, fuga recusandae eveniet voluptates voluptatem, laboriosam eos ad veritatis ullam culpa praesentium.</p>
+</body>
+</html>
