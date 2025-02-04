@@ -89,7 +89,7 @@ section#img02 {
     background-position: center;
 }
 
-@media screen and (max-width: 1479px) {
+@media screen and (max-width: 800px) {
     section#img01 {
         background-image: url('../imagens/imagem05.jpg');
     }
